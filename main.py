@@ -23,7 +23,7 @@ REQUEST_COUNTER: Dict[str, int] = {
 
 # --- RESPONSES ---
 class WorkResponse(BaseModel):
-    email: str = "your-email@example.com"  # Replace with your actual email if required
+    email: str = "22f1001623@ds.study.iitm.ac.in"  # Replace with your actual email if required
     done: int
 
 class HealthResponse(BaseModel):
